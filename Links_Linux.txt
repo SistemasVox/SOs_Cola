@@ -1,0 +1,20 @@
+SUSE:
+https://software.opensuse.org/
+https://pt.opensuse.org/Zypper/Uso
+https://snapcraft.io/install/vlc/opensuse
+https://opensuse-guide.org/codecs.php
+
+sudo zypper in xfce4-netload-plugin
+https://www.funtoo.org/XFCE_Panel_Plugins
+
+https://en.opensuse.org/SDB:NVIDIA_drivers
+sudo zypper in x11-video-nvidiaG04
+
+https://www.blogopcaolinux.com.br/2017/05/Instalando-Android-Studio-no-openSUSE-e-Fedora.html
+
+https://flathub.org/home
+
+----------- --------- ----------------------
+----------------- SNAP ---------------------
+snap changes
+snap abort id
