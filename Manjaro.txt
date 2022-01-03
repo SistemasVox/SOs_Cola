@@ -1,0 +1,29 @@
+https://archive.eclipse.org/windowbuilder/WB/integration/4.6/
+
+
+sudo grep Windows /boot/grub/grub.cfg
+GRUB_DEFAULT="Windows 7 (em /dev/sda1)"
+GRUB_TIMEOUT=2
+GRUB_TIMEOUT_STYLE=hidden
+GRUB_DISTRIBUTOR="Windows"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet apparmor=1 security=apparmor udev.log_priority=3"
+GRUB_CMDLINE_LINUX=""
+sudo update-grub
+
+---------- Eclipse---
+eclipse.ini
+--illegal-access=permit
+/usr/lib/eclipse/
+
+----- Updates ----
+snap refresh --list 
+pamac checkupdates 
+flatpak update
+
+---- MODS -----
+sudo chmod +s /usr/sbin/hddtemp
+---- Mount HDD ---
+lsblk -f
+gedit /etc/fstab
+UUID=01D7C92C5B973860	 /run/media/marcelo/E           ntfs    noatime  0      2
+
