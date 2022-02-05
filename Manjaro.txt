@@ -28,3 +28,9 @@ sudo chmod +s /usr/sbin/hddtemp
 lsblk -f
 gedit /etc/fstab
 UUID=01D7C92C5B973860	 /run/media/marcelo/E           ntfs    noatime  0      2
+
+--- Install .DEB -----
+Install -> Debtap
+Atualizar -> sudo debtap -u
+debtap microsoft-edge-dev_88.0.673.0-1_amd64.deb
+sudo pacman -U microsoft-edge-dev-88.0.673.0-1-x86_64.pkg.tar.zst
