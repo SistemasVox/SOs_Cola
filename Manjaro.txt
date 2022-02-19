@@ -12,6 +12,20 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet apparmor=1 security=apparmor udev.log_priority
 GRUB_CMDLINE_LINUX=""
 sudo update-grub
 
+-- Atts ---
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
+sudo pkgfile -u
+pactree -r pkgfile
+
+sudo mousepad /usr/lib/systemd/system/pkgfile-update.timer
+sudo systemctl disable pkgfile-update.timer
+systemctl start pkgfile-update.service
+
+sudo systemctl stop pkgfile-update.service
+sudo systemctl disable pkgfile-update.service
+sudo systemctl stop pkgfile-update.timer
+sudo systemctl disable pkgfile-update.timer
+
 ---------- Eclipse---
 eclipse.ini
 --illegal-access=permit
@@ -34,3 +48,7 @@ Install -> Debtap
 Atualizar -> sudo debtap -u
 debtap microsoft-edge-dev_88.0.673.0-1_amd64.deb
 sudo pacman -U microsoft-edge-dev-88.0.673.0-1-x86_64.pkg.tar.zst
+
+---- Conky ----
+https://www.gnome-look.org/browse?cat=124&order=latest
+sudo pamac install conky conky-manager i2c-tools hddtemp 
