@@ -14,6 +14,7 @@ sudo update-grub
 
 -- Atts ---
 sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
+sudo pamac update --force-refresh
 sudo pkgfile -u
 pactree -r pkgfile
 
@@ -40,8 +41,9 @@ flatpak update
 sudo chmod +s /usr/sbin/hddtemp
 ---- Mount HDD ---
 lsblk -f
+blkid
 gedit /etc/fstab
-UUID=01D7C92C5B973860	 /run/media/marcelo/E           ntfs    noatime  0      2
+UUID=01D7C92C5B973860	 /run/media/marcelo/E           ntfs-3g    noatime  0      2
 
 --- Install .DEB -----
 Install -> Debtap
