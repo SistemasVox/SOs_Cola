@@ -54,3 +54,7 @@ sudo pacman -U microsoft-edge-dev-88.0.673.0-1-x86_64.pkg.tar.zst
 ---- Conky ----
 https://www.gnome-look.org/browse?cat=124&order=latest
 sudo pamac install conky conky-manager i2c-tools hddtemp 
+
+---- Xfce4 ----
+pamac search xfce4-eyes
+pamac install xfce4-eyes-plugin
