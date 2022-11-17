@@ -58,3 +58,7 @@ sudo pamac install conky conky-manager i2c-tools hddtemp
 ---- Xfce4 ----
 pamac search xfce4-eyes
 pamac install xfce4-eyes-plugin
+
+---- SSH ----
+ssh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedKeyTypes=+ssh-rsa  root@192.168.2.1 -p 22
+
