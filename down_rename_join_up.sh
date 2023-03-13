@@ -91,7 +91,7 @@ echo -e "\nArquivo $csv_file criado com sucesso!!!!\n\n"
 
 # Perguntar ao usuário se ele deseja importar o arquivo csv para o banco de dados
 while true; do
-    read -p "Deseja importar o arquivo $csv_file para o banco de dados? [s/N] " sn
+    read -r -p "Deseja importar o arquivo $csv_file para o banco de dados? [s/N] " sn
     case $sn in
         [Ss]* ) 
         mysqlimport --user=username --password=password --local --fields-terminated-by=';' --lines-terminated-by='\n' database nome_da_tabela "${dir}/uniao.csv";
