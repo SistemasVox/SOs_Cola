@@ -87,7 +87,7 @@ fi
 find "$csv_dir" -name '*.csv' -type f -print0 | sort -z | xargs -0 head -n 1 > "$csv_file"
 tail -n +2 "$csv_dir"/*.csv >> "$csv_file"
 
-echo -e "\nArquivo $csv_file criado com sucesso!!!!"
+echo -e "\nArquivo $csv_file criado com sucesso!!!!\n\n"
 
 # Perguntar ao usuário se ele deseja importar o arquivo csv para o banco de dados
 while true; do
