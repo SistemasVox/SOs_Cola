@@ -1,7 +1,10 @@
 #!/bin/bash
 # <tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="Estabelecimentos0.zip">Estabelecimentos0.zip</a>  </td><td align="right">2023-02-14 09:54  </td><td align="right">902M</td><td>&nbsp;</td></tr>
 # Cria o arquivo datas.txt caso ele não exista
-touch datas.txt
+if [ ! -e datas.txt ]; then
+    echo "O arquivo datas.txt não existe. Criando novo arquivo vazio."
+    touch datas.txt
+fi
 
 # Obtém as datas dos estabelecimentos
 curl -s https://dadosabertos.rfb.gov.br/CNPJ/ | grep -Po 'Estabelecimentos.*?\K\d{4}-\d{2}-\d{2}' | sort | uniq > novas_datas.txt
@@ -15,7 +18,7 @@ if ! cmp -s novas_datas.txt datas.txt; then
     mv novas_datas.txt datas.txt
     echo -e "\nArquivo datas.txt atualizado."
 else
-    echo -e "\nAs datas dos estabelecimentos não foram atualizadas."
+    echo -e "\nNão foi necessário atualizar pois as datas são as mesma."
 fi
 
 # Obtém as datas dos estabelecimentos e as compara com as do arquivo datas.txt
@@ -29,7 +32,8 @@ if ! cmp -s "$temp_file" datas.txt; then
     mv "$temp_file" datas.txt
     echo -e "\nArquivo datas.txt atualizado."
 else
-    echo -e "\nAs datas dos estabelecimentos não foram atualizadas."
+    echo -e "\nNão foi necessário atualizar pois as datas são as mesma."
 fi
 
 rm "$temp_file" # remove o arquivo temporário
+
