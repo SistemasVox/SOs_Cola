@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# <tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="Estabelecimentos0.zip">Estabelecimentos0.zip</a>  </td><td align="right">2023-02-14 09:54  </td><td align="right">902M</td><td>&nbsp;</td></tr>
 # Cria o arquivo datas.txt caso ele não exista
 touch datas.txt
 
