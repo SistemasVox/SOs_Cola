@@ -1,5 +1,17 @@
 #!/bin/bash
 # <tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="Estabelecimentos0.zip">Estabelecimentos0.zip</a>  </td><td align="right">2023-02-14 09:54  </td><td align="right">902M</td><td>&nbsp;</td></tr>
+# Verifica se há pelo menos 20 GB de espaço livre
+SPACE_AVAILABLE=$(df -h | awk '$NF=="/"{printf "%d", $4}')
+if [ "$SPACE_AVAILABLE" -lt 20 ]; then
+  echo -e "\nNão há espaço suficiente para executar o script att.sh"
+  echo -e "\nEspaço livre indisponível: $SPACE_AVAILABLE GB."
+  exit 1
+fi
+
+# Executa o script att.sh
+echo -e "\nTudo certo espaço livre disponível: $SPACE_AVAILABLE GB.\n"
+./att.sh
+
 # Cria o arquivo datas.txt caso ele não exista
 if [ ! -e datas.txt ]; then
     echo "O arquivo datas.txt não existe. Criando novo arquivo vazio."
