@@ -1,0 +1,698 @@
+ Final benchmark results, sorted by nameserver performance:
+ (average cached name retrieval speed, fastest to slowest)
+
+  156.154. 70. 25 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,022 | 0,043 | 0,423 | 0,062 | 100,0 |
+  - Uncached Name | 0,027 | 0,174 | 0,475 | 0,120 | 100,0 |
+  - DotCom Lookup | 0,133 | 0,168 | 0,351 | 0,039 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+  198.153.194.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,022 | 0,044 | 0,290 | 0,042 | 100,0 |
+  - Uncached Name | 0,024 | 0,167 | 0,369 | 0,100 | 100,0 |
+  - DotCom Lookup | 0,136 | 0,167 | 0,324 | 0,029 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+    1.  0.  0.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,022 | 0,046 | 0,404 | 0,061 | 100,0 |
+  + Uncached Name | 0,026 | 0,182 | 0,540 | 0,127 | 100,0 |
+  + DotCom Lookup | 0,042 | 0,180 | 0,541 | 0,072 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     one.one.one.one
+                    CLOUDFLARENET, US
+
+
+  208. 67.222.220 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,028 | 0,047 | 0,201 | 0,028 | 100,0 |
+  - Uncached Name | 0,031 | 0,148 | 0,579 | 0,130 | 100,0 |
+  - DotCom Lookup | 0,130 | 0,154 | 0,368 | 0,034 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                  resolver3.opendns.com
+                       OPENDNS, US
+
+
+  208. 67.222.123 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,028 | 0,047 | 0,212 | 0,031 | 100,0 |
+  - Uncached Name | 0,030 | 0,154 | 0,477 | 0,127 | 100,0 |
+  - DotCom Lookup | 0,135 | 0,156 | 0,344 | 0,030 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                familyshield.opendns.com
+                       OPENDNS, US
+
+
+  129.250. 35.250 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,021 | 0,047 | 0,386 | 0,054 | 100,0 |
+  - Uncached Name | 0,024 | 0,167 | 0,389 | 0,099 | 100,0 |
+  - DotCom Lookup | 0,130 | 0,155 | 0,419 | 0,043 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    x.ns.gin.ntt.net
+                    NTT-LTD-2914, US
+
+
+    1.  1.  1.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,023 | 0,047 | 0,403 | 0,061 | 100,0 |
+  + Uncached Name | 0,026 | 0,195 | 0,600 | 0,152 | 100,0 |
+  + DotCom Lookup | 0,029 | 0,154 | 0,552 | 0,082 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     one.one.one.one
+                    CLOUDFLARENET, US
+
+
+    9.  9.  9.  9 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,023 | 0,048 | 0,435 | 0,062 | 100,0 |
+  - Uncached Name | 0,026 | 0,140 | 0,379 | 0,110 | 100,0 |
+  - DotCom Lookup | 0,024 | 0,094 | 0,290 | 0,069 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     dns9.quad9.net
+                     QUAD9-AS-1, CH
+
+
+  216.146. 36. 36 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,023 | 0,048 | 0,408 | 0,064 | 100,0 |
+  + Uncached Name | 0,028 | 0,153 | 0,565 | 0,128 | 100,0 |
+  + DotCom Lookup | 0,027 | 0,120 | 0,420 | 0,066 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     rdns.dynect.net
+                  ORACLE-BMC-31898, US
+
+
+  208. 67.220.222 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,029 | 0,048 | 0,281 | 0,039 | 100,0 |
+  - Uncached Name | 0,033 | 0,156 | 0,579 | 0,141 | 100,0 |
+  - DotCom Lookup | 0,094 | 0,153 | 0,288 | 0,027 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                  resolver4.opendns.com
+                       OPENDNS, US
+
+
+  208. 67.220.123 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,027 | 0,049 | 0,282 | 0,039 | 100,0 |
+  - Uncached Name | 0,032 | 0,126 | 0,357 | 0,090 | 100,0 |
+  - DotCom Lookup | 0,132 | 0,153 | 0,288 | 0,024 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                familyshield.opendns.com
+                       OPENDNS, US
+
+
+  156.154. 70.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,022 | 0,049 | 0,412 | 0,061 | 100,0 |
+  - Uncached Name | 0,025 | 0,166 | 0,416 | 0,111 | 100,0 |
+  - DotCom Lookup | 0,129 | 0,165 | 0,340 | 0,034 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                   rdns1.ultradns.net
+                      ULTRADNS, US
+
+
+  216.146. 35. 35 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,022 | 0,050 | 0,410 | 0,067 | 100,0 |
+  + Uncached Name | 0,029 | 0,157 | 0,588 | 0,126 | 100,0 |
+  + DotCom Lookup | 0,025 | 0,126 | 0,510 | 0,075 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     rdns.dynect.net
+                  ORACLE-BMC-31898, US
+
+
+  156.154. 70. 22 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,021 | 0,050 | 0,395 | 0,061 | 100,0 |
+  + Uncached Name | 0,024 | 0,183 | 0,623 | 0,144 | 100,0 |
+  + DotCom Lookup | 0,131 | 0,171 | 0,517 | 0,056 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+  208. 67.222.222 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,028 | 0,053 | 0,388 | 0,061 | 100,0 |
+  + Uncached Name | 0,032 | 0,159 | 0,566 | 0,144 | 100,0 |
+  + DotCom Lookup | 0,130 | 0,162 | 0,493 | 0,053 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                  resolver1.opendns.com
+                       OPENDNS, US
+
+
+  208. 67.220.220 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,037 | 0,062 | 0,394 | 0,061 | 100,0 |
+  + Uncached Name | 0,054 | 0,179 | 0,607 | 0,143 | 100,0 |
+  + DotCom Lookup | 0,150 | 0,176 | 0,553 | 0,060 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                  resolver2.opendns.com
+                       OPENDNS, US
+
+
+    8.  8.  4.  4 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,021 | 0,072 | 0,453 | 0,095 | 100,0 |
+  + Uncached Name | 0,025 | 0,193 | 0,611 | 0,164 | 100,0 |
+  + DotCom Lookup | 0,026 | 0,069 | 0,388 | 0,072 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                       dns.google
+                       GOOGLE, US
+
+
+    8.  8.  8.  8 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,021 | 0,105 | 0,568 | 0,142 | 100,0 |
+  + Uncached Name | 0,024 | 0,151 | 0,421 | 0,122 | 100,0 |
+  + DotCom Lookup | 0,025 | 0,060 | 0,411 | 0,069 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                       dns.google
+                       GOOGLE, US
+
+
+  199.  2.252. 10 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,133 | 0,152 | 0,373 | 0,036 | 100,0 |
+  - Uncached Name | 0,140 | 0,220 | 0,406 | 0,083 | 100,0 |
+  - DotCom Lookup | 0,141 | 0,173 | 0,392 | 0,039 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                   ns2.sprintlink.net
+                     SPRINTLINK, US
+
+
+  204.194.232.200 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,132 | 0,153 | 0,384 | 0,041 | 100,0 |
+  - Uncached Name | 0,135 | 0,194 | 0,380 | 0,071 | 100,0 |
+  - DotCom Lookup | 0,135 | 0,169 | 0,345 | 0,031 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                       OPENDNS, US
+
+
+  204.194.234.200 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,132 | 0,153 | 0,327 | 0,033 | 100,0 |
+  - Uncached Name | 0,136 | 0,195 | 0,391 | 0,065 | 100,0 |
+  - DotCom Lookup | 0,134 | 0,172 | 0,346 | 0,032 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                       OPENDNS, US
+
+
+   76.223.122.150 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,134 | 0,159 | 0,495 | 0,059 | 100,0 |
+  + Uncached Name | 0,136 | 0,188 | 0,509 | 0,080 | 100,0 |
+  + DotCom Lookup | 0,136 | 0,156 | 0,507 | 0,055 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      AMAZON-02, US
+
+
+   76. 76. 19. 19 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,134 | 0,161 | 0,514 | 0,060 | 100,0 |
+  + Uncached Name | 0,135 | 0,188 | 0,539 | 0,086 |  98,0 |
+  + DotCom Lookup | 0,136 | 0,159 | 0,529 | 0,062 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                  dns.alternate-dns.com
+                      AMAZON-02, US
+
+
+  204. 97.212. 10 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,142 | 0,161 | 0,384 | 0,039 | 100,0 |
+  - Uncached Name | 0,153 | 0,224 | 0,524 | 0,085 | 100,0 |
+  - DotCom Lookup | 0,152 | 0,190 | 0,354 | 0,031 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                   ns3.sprintlink.net
+                     SPRINTLINK, US
+
+
+    4.  2.  2.  2 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,142 | 0,162 | 0,444 | 0,050 | 100,0 |
+  - Uncached Name | 0,144 | 0,200 | 0,445 | 0,074 | 100,0 |
+  - DotCom Lookup | 0,155 | 0,176 | 0,395 | 0,038 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 b.resolvers.level3.net
+                       LEVEL3, US
+
+
+    4.  2.  2.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,140 | 0,162 | 0,459 | 0,047 | 100,0 |
+  - Uncached Name | 0,141 | 0,208 | 0,526 | 0,083 | 100,0 |
+  - DotCom Lookup | 0,154 | 0,175 | 0,420 | 0,040 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 a.resolvers.level3.net
+                       LEVEL3, US
+
+
+    4.  2.  2.  6 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,138 | 0,163 | 0,535 | 0,060 | 100,0 |
+  - Uncached Name | 0,142 | 0,193 | 0,417 | 0,074 | 100,0 |
+  - DotCom Lookup | 0,154 | 0,169 | 0,340 | 0,028 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 f.resolvers.level3.net
+                       LEVEL3, US
+
+
+    4.  2.  2.  4 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,138 | 0,163 | 0,536 | 0,061 | 100,0 |
+  - Uncached Name | 0,143 | 0,198 | 0,428 | 0,072 | 100,0 |
+  - DotCom Lookup | 0,154 | 0,173 | 0,340 | 0,030 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 d.resolvers.level3.net
+                       LEVEL3, US
+
+
+  204.117.214. 10 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,144 | 0,163 | 0,396 | 0,039 | 100,0 |
+  - Uncached Name | 0,150 | 0,215 | 0,513 | 0,086 | 100,0 |
+  - DotCom Lookup | 0,147 | 0,167 | 0,368 | 0,032 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                   ns1.sprintlink.net
+                     SPRINTLINK, US
+
+
+    4.  2.  2.  3 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,139 | 0,164 | 0,507 | 0,057 | 100,0 |
+  - Uncached Name | 0,144 | 0,217 | 0,439 | 0,087 | 100,0 |
+  - DotCom Lookup | 0,152 | 0,173 | 0,352 | 0,032 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 c.resolvers.level3.net
+                       LEVEL3, US
+
+
+    4.  2.  2.  5 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,139 | 0,165 | 0,536 | 0,059 | 100,0 |
+  - Uncached Name | 0,145 | 0,200 | 0,417 | 0,075 | 100,0 |
+  - DotCom Lookup | 0,153 | 0,169 | 0,339 | 0,029 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 e.resolvers.level3.net
+                       LEVEL3, US
+
+
+  129.250. 35.251 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,173 | 0,192 | 0,469 | 0,044 | 100,0 |
+  - Uncached Name | 0,177 | 0,248 | 0,661 | 0,103 | 100,0 |
+  - DotCom Lookup | 0,174 | 0,193 | 0,337 | 0,029 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    y.ns.gin.ntt.net
+                    NTT-LTD-2914, US
+
+
+    8. 26. 56. 26 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   | 0,126 | 0,199 | 0,603 | 0,133 | 100,0 |
+  + Uncached Name | 0,128 | 0,220 | 0,680 | 0,113 |  91,5 |
+  + DotCom Lookup | 0,131 | 0,181 | 0,609 | 0,076 |  93,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+              ns1.recursive.dnsbycomodo.com
+                        NUCDN, US
+
+
+   24.113. 32. 30 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,205 | 0,226 | 0,494 | 0,047 | 100,0 |
+  - Uncached Name | 0,208 | 0,264 | 0,481 | 0,073 |  94,6 |
+  - DotCom Lookup | 0,209 | 0,232 | 0,273 | 0,015 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    ns2.wavecable.com
+                      AS-WAVE-1, US
+
+
+   24.113. 32. 29 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   | 0,207 | 0,228 | 0,526 | 0,049 | 100,0 |
+  - Uncached Name | 0,210 | 0,287 | 0,638 | 0,086 |  97,9 |
+  - DotCom Lookup | 0,208 | 0,249 | 0,707 | 0,076 | 100,0 |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    ns1.wavecable.com
+                      AS-WAVE-1, US
+
+
+    8. 20.247. 20 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+              ns2.recursive.dnsbycomodo.com
+                        NUCDN, US
+
+
+  156.154. 71. 22 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  + Cached Name   |   -   |   -   |   -   |   -   |   -   |
+  + Uncached Name |   -   |   -   |   -   |   -   |   -   |
+  + DotCom Lookup |   -   |   -   |   -   |   -   |   -   |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+   64. 81. 45.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.lax1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   64. 81. 79.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.sfo1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   64. 81.111.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    den.speakeasy.net
+                     MEGAPATH5-, US
+
+
+   64. 81.127.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.dfw1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   64. 81.159.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.chi1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   66. 92. 64.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    bos.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   66. 92.159.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.wdc1.speakeasy.net
+                      NBS11696, US
+
+
+   66. 92.224.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                    phl.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   66. 93. 87.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.sea1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+   68.  1. 18. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  1. 18. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  2. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.ph.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  2. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.ph.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  4. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.oc.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  4. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.oc.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  6. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.sd.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  6. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.sd.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  9. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.ri.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.  9. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.ri.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 10. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.hr.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 10. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.hr.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 11. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.no.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 11. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.no.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 12. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+               ip68-12-16-25.ok.ok.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 12. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+               ip68-12-16-30.ok.ok.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 13. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.om.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 13. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.om.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68. 87. 64.154 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+   cdn-ec-chi-015-03.chicago201.il.chicago.comcast.net
+                    COMCAST-7922, US
+
+
+   68. 87. 68.170 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+       vsg04-d1stonemtn-ga-atlanta.vsg.comcast.net
+                    COMCAST-7922, US
+
+
+   68. 87. 69.154 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+     bvrt-dns-trial.beaverton.or.bverton.comcast.net
+                    COMCAST-7922, US
+
+
+   68.100. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.dc.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.100. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.dc.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.111. 16. 25 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns2.lv.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   68.111. 16. 30 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                     ns1.lv.cox.net
+              ASN-CXA-ALL-CCI-22773-RDC, US
+
+
+   74.118.212.  1 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+              THREATTRACK-SECURITY-INC, US
+
+
+   74.118.212.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                      vpn.vipre.com
+              THREATTRACK-SECURITY-INC, US
+
+
+  156.154. 71.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   |   -   |   -   |   -   |   -   |   -   |
+  - Uncached Name |   -   |   -   |   -   |   -   |   -   |
+  - DotCom Lookup |   -   |   -   |   -   |   -   |   -   |
+  ---<-------->---+-------+-------+-------+-------+-------+
+                   rdns2.ultradns.net
+                      ULTRADNS, US
+
+
+  156.154. 71. 25 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   |   -   |   -   |   -   |   -   |   -   |
+  - Uncached Name |   -   |   -   |   -   |   -   |   -   |
+  - DotCom Lookup |   -   |   -   |   -   |   -   |   -   |
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+  198.153.192.  1 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%|
+  ----------------+-------+-------+-------+-------+-------+
+  - Cached Name   |   -   |   -   |   -   |   -   |   -   |
+  - Uncached Name |   -   |   -   |   -   |   -   |   -   |
+  - DotCom Lookup |   -   |   -   |   -   |   -   |   -   |
+  ---<----OOOO>---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      ULTRADNS, US
+
+
+  209. 55.  0.110 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      MOMENTUM, US
+
+
+  209. 55.  1.220 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+          ··· no official Internet DNS name ···
+                      MOMENTUM, US
+
+
+  216. 27.175.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.atl1.speakeasy.net
+                      NBS11696, US
+
+
+  216.231. 41.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 ns-legacy.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+  216.254. 95.  2 | DNS queries are not answered at this IP.
+  ---<-------->---+-------+-------+-------+-------+-------+
+                 dns.nyc1.speakeasy.net
+                     ATL-CBEYOND, US
+
+
+  UTC: 2022-11-18, from 00:09:31 to 00:12:43, for 03:12,316
+
+Interpreting your benchmark results above:
+
+The following guide is only intended as a quick
+"get you going" reference and reminder.
+
+To obtain a working understanding of this program's operation, and to familiarize yourself with its many features, please see the main DNS Benchmark web page by clicking on the "Goto DNS Page" button below.
+
+Referring to this sample:
+
+ 64. 81.159.  2 |  Min  |  Avg  |  Max  |Std.Dev|Reliab%
+----------------+-------+-------+-------+-------+-------
+- Cached Name   | 0.001 | 0.001 | 0.001 | 0.000 | 100.0
+- Uncached Name | 0.021 | 0.033 | 0.045 | 0.016 | 100.0
+- DotCom Lookup | 0.021 | 0.022 | 0.022 | 0.001 | 100.0
+---<O-OO---->---+-------+-------+-------+-------+-------
+                 dns.chi1.speakeasy.net
+                        Speakeasy
+
+The Benchmark creates a table similar to the one above for each DNS resolver (nameserver) tested. The top line specifies the IP address of the nameserver for this table.
+
+The first three numeric columns provide the minimum, average, and maximum query-response times in seconds. Note that these timings incorporate all network delays from the querying computer, across the Internet, to the nameserver, the nameserver's own processing, and the return of the reply. Since the numbers contain three decimal digits of accuracy, the overall resolution of the timing is thousandths of a second, or milliseconds.
+
+The fourth numeric column shows the "standard deviation" of the collected query-response times which is a common statistical measure of the spread of the values - a smaller standard deviation means more consistency and less spread.
+
+The fifth and last numeric column shows the reliability of the tested nameserver's replies to queries. Since lost, dropped, or ignored queries introduce a significant lookup delay (typically a full second or more each) a nameserver's reliability is an important consideration.
+
+The labels of the middle three lines are colored red, green, and blue  to match their respective bars on the response time bar chart.
+
+The "Cached Name"  line presents the timings for queries that are answered from the server's own local name cache without requiring it to forward the query to other name servers. Since the name caches of active public nameservers will always be full of the IPs of common domains, the vast majority of queries will be cached. Therefore, the Benchmark gives this timing the highest weight.
+
+The "Uncached Name" line presents the timings for queries which could not be answered from the server's local cache and required it to ask another name server for the data. Specifically, this measures the time required to resolve the IP addresses of the Internet's 30 most popular web sites. The Benchmark gives this timing the second highest weight.
+
+The "DotCom Lookup"  line presents the timings for the resolution of dot com nameserver IP addresses. This differs from the Cached and Uncached tests above, since they measure the time required to determine a dot com's IP, whereas the DotCom Lookup measures the time required to resolve the IP of a dot com's nameserver, from which a dot com's IP would then be resolved. This test presents a measure of how well the DNS server being tested is connected to the dot com nameservers.
+
+The lower border of the table contains a set of eight indicators (O and -) representing non-routable networks whose IP addresses are actively blocked by the resolver to protect its users from DNS rebinding attacks:  <O-OO---->. The "O" character indicates that blocking is occurring for the corresponding network, whereas the "-" character indicates that non-routable IP addresses are being resolved and rebinding protection is not present. The first four symbols represent the four IPv4 networks beginning with 10., 127., 172., and 192. respectively, and the second four symbols are the same networks but for IPv6.
+
+The final two lines at the bottom of each chart duplicate the information from the Name and Owner tabs on the Nameserver page:
+
+                 dns.chi1.speakeasy.net
+                        Speakeasy
+
+The first line displays the "Reverse DNS" name of the server, if any. (This is the name looked up by the nameserver's IP address.) The second line displays the Ownership information, if any, of the network containing the nameserver
+
+The final line of the automatically generated chart is a timestamp that shows the date and time of the start, completion, and total elapsed time of the benchmark:
+
+UTC: 2009-07-15 from 16:41:50 to 16:44:59 for 03:08.703
+
+All times are given in Universal Coordinated Time (UTC) which is equivalent to GMT. In the sample shown above, the entire benchmark required 3 minutes, 8.703 seconds to run to completion.
+
+All, or a marked portion, of the Tabular Data results on this page may be copied to the Windows' clipboard or saved to a file for safe keeping, sharing, or later comparison.
+• • •
