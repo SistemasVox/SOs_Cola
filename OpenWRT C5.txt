@@ -5,8 +5,20 @@ opkg install screen
 opkg install nano
 
 nano /etc/rc.local
-screen -dmS pingSession1 ping -s 756 8.8.4.4 &
-screen -dmS pingSession2 ping -s 756 1.1.1.1 &
+
+sleep 60
+
+if command -v screen >/dev/null 2>&1; then
+    # If screen is installed, use it to run the commands
+    screen -dmS ping1 ping -s 756 1.1.1.1 &
+    screen -dmS ping2 ping -s 756 9.9.9.9 &
+else
+    # If screen is not installed, run the commands directly in the background
+    ping -s 756 1.1.1.1 &
+    ping -s 756 9.9.9.9 &
+fi
+
+exit 0
 
 chmod +x /etc/rc.local
 
