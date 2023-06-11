@@ -1,0 +1,14 @@
+OpenWRT C5 "C:\Program Files\PuTTY\putty.exe" root@192.168.2.1 22 -pw xxxx
+
+opkg update
+opkg install screen
+opkg install nano
+
+nano /etc/rc.local
+screen -dmS pingSession1 ping -s 756 8.8.4.4 &
+screen -dmS pingSession2 ping -s 756 1.1.1.1 &
+
+chmod +x /etc/rc.local
+
+screen -ls
+ps | grep ping
