@@ -6,19 +6,26 @@ opkg install nano
 
 nano /etc/rc.local
 
-sleep 60
-
-if command -v screen >/dev/null 2>&1; then
-    # If screen is installed, use it to run the commands
-    screen -dmS ping1 ping -s 756 1.1.1.1 &
-    screen -dmS ping2 ping -s 756 9.9.9.9 &
-else
-    # If screen is not installed, run the commands directly in the background
-    ping -s 756 1.1.1.1 &
-    ping -s 756 9.9.9.9 &
-fi
-
+sleep 30
+while true; do
+    if ! pgrep -f "ping -s 756 1.1.1.1" > /dev/null; then
+        if command -v screen >/dev/null 2>&1; then
+            screen -dmS ping1 ping -s 756 1.1.1.1
+        else
+            ping -s 756 1.1.1.1 &
+        fi
+    fi
+    if ! pgrep -f "ping -s 756 9.9.9.9" > /dev/null; then
+        if command -v screen >/dev/null 2>&1; then
+            screen -dmS ping2 ping -s 756 9.9.9.9
+        else
+            ping -s 756 9.9.9.9 &
+        fi
+    fi
+    sleep 60
+done
 exit 0
+
 
 chmod +x /etc/rc.local
 
