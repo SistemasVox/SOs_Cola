@@ -1,5 +1,5 @@
 opkg update
-opkg install nano vim bmon screen htop wget curl adblock luci-app-adblock
+opkg install nano vim bmon screen htop wget curl adblock luci-app-adblock tcpdump-mini
 
 ls /mnt/data
 mkdir -p /mnt/data
