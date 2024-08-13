@@ -36,6 +36,8 @@ block detect > /etc/config/fstab; \
 https://openwrt.org/docs/guide-user/luci/luci.essentials
 opkg update
 opkg install luci
-
 ---------------------------------------------------------
 6,8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1,208.67.222.222,208.67.220.220,216.146.35.35,216.146.36.36,8.26.56.26,8.20.247.20,156.154.70.22,156.154.71.22,76.76.19.19,76.223.122.150
+-----------------------------------------------------------------------------------------------------------
+## AdBlock
+opkg update && opkg install uclient-fetch libustream-openssl wget-ssl curl aria2
