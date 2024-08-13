@@ -1,42 +1,31 @@
-1– Atualize a lista de pacotes.
+Resumo dos Comandos para Configuração de Pendrive no OpenWRT:
 
-# opkg update
-2 – Instale os pacotes necessários.
+1. Atualizar a lista de pacotes:
+   opkg update
 
-# opkg install block-mount kmod-fs-ext4 kmod-usb-storage e2fsprogs kmod-usb-ohci kmod-usb-uhci fdisk
-3 – Verifique os discos e veja se seu pendrive aparece, normalmente aparecerá como /dev/sda1.
+2. Instalar os pacotes necessários:
+   opkg install block-mount kmod-fs-ext4 kmod-usb-storage e2fsprogs kmod-usb-ohci kmod-usb-uhci fdisk
 
-# block info
+3. Verificar os dispositivos de armazenamento:
+   block info
 
+4. Transferir o conteúdo do /overlay para o pendrive:
+   mount /dev/sda1 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umount /mnt
 
-OBS: Se seu dispositivo não estiver formatado como ext4 ou f2fs, realize a formatação utilizando o fdisk, para detalhes de como realizar esse procedimento acesse o link abaixo:
+5. Gerar e configurar o fstab:
+block detect > /etc/config/fstab
+sed -i s/option$'\t'enabled$'\t'\'0\'/option$'\t'enabled$'\t'\'1\'/ /etc/config/fstab
+sed -i s#/mnt/sda1#/overlay# /etc/config/fstab
+cat /etc/config/fstab
 
+6. Montar o pendrive como /overlay:
+   mount /dev/sda1 /overlay
 
+7. Reiniciar o roteador:
+   reboot
 
-4 – Depois de formatado, imagino que seu pendrive esteja como /dev/sda1, execute o comando abaixo para transfira o conteúdo do /overlay para o /dev/sda1.
-
-# mount /dev/sda1 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umount /mnt
-OBS: Se seu pendrive não estiver como sda1, troque o /dev/sda1 do comando acima pela sua partição.
-
-5 – Gere um novo fstab. ATENCAO NESSE CODIGO, SUBSTITUA !!
-
-# block detect (coloque o simbolo de (maior que)) /etc/config/fstab; \
-     sed -i s/option$'\t'enabled$'\t'\'0\'/option$'\t'enabled$'\t'\'1\'/ /etc/config/fstab; \
-     sed -i s#/mnt/sda1#/overlay# /etc/config/fstab; \
-     cat /etc/config/fstab;
-
-
-
-6 – Monte o /dev/sda1 no /overlay.
-
-# mount /dev/sda1 /overlay
-7 – Reinicie o roteador.
-
-# reboot
-8 – Após o equipamento reiniciar, execute um df -h para verificar se o procedimento foi realizado com sucesso.
-
-# df -h
-Se tudo estiver dado certo, seu pendrive será o /overlay.
+8. Verificar se a configuração foi aplicada:
+   df -h
 
 ----------------------------------------------------------------------------------------------------------
 block detect > /etc/config/fstab; \
