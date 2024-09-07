@@ -1,10 +1,10 @@
 ﻿#!/bin/sh
 
 set_variables() {
-    REMOTE_HOST="flix.techsuper.com.br"
-    REMOTE_DB="network_monitor"
-    REMOTE_USER="marcelo"
-    REMOTE_PASS="q1w2"
+    REMOTE_HOST=""
+    REMOTE_DB=""
+    REMOTE_USER=""
+    REMOTE_PASS=""
     REMOTE_TABLE="ping_logs"
     
     # Caminho absoluto para o banco de dados SQLite e arquivo de log
