@@ -1,0 +1,1 @@
+opkg list-installed | awk '{print $1}' > pacotes_instalados.txt
