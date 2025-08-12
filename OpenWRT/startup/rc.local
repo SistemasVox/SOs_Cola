@@ -1,0 +1,30 @@
+#!/bin/bash
+# Expande /tmp para 2GB (ANTES dos outros serviços)
+mount -o remount,size=2G tmpfs /tmp
+echo "$(date): /tmp expandido para 2GB" >> /var/log/startup.log
+
+# Ativar swap
+swapon /dev/sda1 &
+# Sincronizar hora com NTP
+# ntpclient -h a.st1.ntp.br -s &
+
+# Iniciar o monitor de internet
+screen -dmS ping /bin/bash /root/home/monitores/internet_check_noip.sh &
+
+# Iniciar o monitor de desligamento
+screen -dmS shut /bin/bash /root/home/shutdown/monitor_shutdown_4_gemini.bash &
+
+# Iniciar o monitor de Gateway
+# screen -dmS gate /bin/bash /root/home/shutdown/monitor_Gateway.bash &
+
+# Iniciar o alerta de download
+screen -dmS speed /bin/bash /root/home/monitores/alerta_download_5.sh &
+
+# Iniciar o monitor de internet
+screen -dmS ids /bin/bash /root/home/monitores/ids_monitor.sh &
+
+# Iniciar o servidor MariaDB em uma sessão screen
+# /usr/bin/mariadb.sh start &
+# Finalizar o script (não esperar que o screen continue)
+
+exit 0
